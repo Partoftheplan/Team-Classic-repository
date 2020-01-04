@@ -12,4 +12,16 @@
 	{
 		"viewed"		"2"
 	}
+	"ctf_well"
+	{
+		"viewed"		"1"
+	}
+	"testmap"
+	{
+		"viewed"		"1"
+	}
+	"background01"
+	{
+		"viewed"		"2"
+	}
 }
