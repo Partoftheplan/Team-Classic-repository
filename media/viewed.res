@@ -10,7 +10,7 @@
 	}
 	"cp_badlands"
 	{
-		"viewed"		"2"
+		"viewed"		"3"
 	}
 	"ctf_well"
 	{
@@ -22,6 +22,10 @@
 	}
 	"background01"
 	{
-		"viewed"		"2"
+		"viewed"		"3"
+	}
+	"cp_gravelpit"
+	{
+		"viewed"		"1"
 	}
 }

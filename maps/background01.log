@@ -616,3 +616,127 @@ Level flags = 3
 Total triangle count: 173
 Writing d:\steam\steamapps\sourcemods\team_classic_alpha\maps\background01.bsp
 3 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\Team_Classic_alpha\materials
+Loading D:\Steam\steamapps\sourcemods\Team_Classic_alpha\maps\background01.vmf
+Map revision 5
+Could not locate 'GameData' key in d:\steam\steamapps\sourcemods\team_classic_alpha\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\Team_Classic_alpha\maps\background01.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5966 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 14 texinfos to 6
+Reduced 5 texdatas to 5 (113 bytes to 113)
+Writing D:\Steam\steamapps\sourcemods\Team_Classic_alpha\maps\background01.bsp
+Wrote ZIP buffer, estimated size 86972, actual size 86758
+1 second elapsed
+
+
+
+16 threads
+reading d:\steam\steamapps\sourcemods\team_classic_alpha\maps\background01.bsp
+reading d:\steam\steamapps\sourcemods\team_classic_alpha\maps\background01.prt
+  26 portalclusters
+  66 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 664
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 26
+visdatasize:420  compressed from 416
+writing d:\steam\steamapps\sourcemods\team_classic_alpha\maps\background01.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[34 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\team_classic_alpha\maps\background01.bsp
+71 faces
+253296 square feet [36474688.00 square inches]
+6 Displacements
+43807 Square Feet [6308286.00 Square Inches]
+71 patches before subdivision
+3443 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 27712, max 82
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(3321, 2138, 1407)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(202, 84, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 16/32768         192/393216   ( 0.0%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                  82/65536        1640/1310720  ( 0.1%) 
+vertexes               139/65536        1668/786432   ( 0.2%) 
+nodes                   92/65536        2944/2097152  ( 0.1%) 
+texinfos                 6/12288         432/884736   ( 0.0%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts             486/0            9720/0        ( 0.0%) 
+disp_tris              768/0            1536/0        ( 0.0%) 
+disp_lmsamples      104544/0          104544/0        ( 0.0%) 
+faces                   71/65536        3976/3670016  ( 0.1%) 
+hdr faces               71/65536        3976/3670016  ( 0.1%) 
+origfaces               24/65536        1344/3670016  ( 0.0%) 
+leaves                  94/65536        3008/2097152  ( 0.1%) 
+leaffaces               65/65536         130/131072   ( 0.1%) 
+leafbrushes             54/65536         108/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              411/512000       1644/2048000  ( 0.1%) 
+edges                  263/256000       1052/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          2/16384         176/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/131072         80/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           114/131072        228/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      144768/0        ( 0.0%) 
+visdata               [variable]         420/16777216 ( 0.0%) 
+entdata               [variable]        1878/393216   ( 0.5%) 
+LDR ambient table       94/65536         376/262144   ( 0.1%) 
+HDR ambient table       94/65536         376/262144   ( 0.1%) 
+LDR leaf ambient        94/65536        2632/1835008  ( 0.1%) 
+HDR leaf ambient       322/65536        9016/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1746     ( 0.1%) 
+pakfile               [variable]      200500/0        ( 0.0%) 
+physics               [variable]        5966/4194304  ( 0.1%) 
+physics terrain       [variable]        1972/1048576  ( 0.2%) 
+
+Level flags = 2
+
+Total triangle count: 173
+Writing d:\steam\steamapps\sourcemods\team_classic_alpha\maps\background01.bsp
+3 seconds elapsed
